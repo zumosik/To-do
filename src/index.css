@@ -1,0 +1,37 @@
+.tasks { 
+  color: #fff;
+	background-color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	min-width:400px;
+	min-height: 150px;
+	position:absolute;
+  border-radius: 12px;
+  display: grid;
+  justify-content: start;
+  padding: 20px 20px;
+}
+
+
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.checkbox-group:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  padding-left: 10px;
+  cursor: pointer;
+}
